@@ -463,6 +463,7 @@ const Footer = () => (
           <span className="font-bold">24 Horas / 7 Dias</span>
         </div>
         <p className="mt-4 text-gray-500 text-xs">© {new Date().getFullYear()} LF Climatização.</p>
+         <li>Cnpj:66.406.128/0001-68</li>
       </div>
     </div>
   </footer>
