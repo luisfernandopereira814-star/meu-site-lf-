@@ -457,13 +457,20 @@ const Footer = () => (
         </ul>
       </div>
       <div>
-        <h4 className="font-bold mb-6">Suporte</h4>
-        <div className="flex items-center justify-center md:justify-start gap-2 text-blue-400">
-          <Clock size={16} />
-          <span className="font-bold">24 Horas / 7 Dias</span>
-        </div>
-        <p className="mt-4 text-gray-500 text-xs">© {new Date().getFullYear()} LF Climatização.</p>
-         <li>Cnpj:66.406.128/0001-68</li>
+      <h4 className="font-bold mb-6">Suporte</h4>
+
+<div className="flex items-center justify-center md:justify-start gap-2 text-blue-400">
+  <Clock size={16} />
+  <span className="font-bold">24 Horas / 7 Dias</span>
+</div>
+
+<ul className="mt-4 text-gray-500 text-xs">
+  <li>CNPJ: 66.406.128/0001-68</li>
+</ul>
+
+<p className="mt-4 text-gray-500 text-xs">
+  © {new Date().getFullYear()} LF Climatização.
+</p>
       </div>
     </div>
   </footer>
