@@ -457,14 +457,13 @@ const Footer = () => (
         </ul>
       </div>
       <div>
-      <h4 className="font-bold mb-6">Suporte</h4>
+ <h4 className="font-bold mb-6">Suporte</h4>
 
-<div className="flex items-center justify-center md:justify-start gap-2 text-blue-400">
-  <Clock size={16} />
-  <span className="font-bold">24 Horas / 7 Dias</span>
-</div>
-
-<ul className="mt-4 text-gray-500 text-xs">
+<ul className="space-y-4 text-gray-400 text-sm">
+  <li className="flex items-center gap-2">
+    <Clock size={16} className="text-blue-400" />
+    <span>24 Horas / 7 Dias</span>
+  </li>
   <li>CNPJ: 66.406.128/0001-68</li>
 </ul>
 
